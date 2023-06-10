@@ -1,1 +1,6 @@
-{}
+{
+    "app_title": "Board Game App!",
+    "login": "Login",
+    "signup": "Sign up",
+    "explore_games": "Explore Games"
+}
