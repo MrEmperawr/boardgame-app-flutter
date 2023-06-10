@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "385900976442",
+    "project_id": "boardgame-pp",
+    "storage_bucket": "boardgame-pp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385900976442:android:8dc5236ef32aff76af5803",
+        "android_client_info": {
+          "package_name": "com.example.boardgame_app_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385900976442-vb9fs66nvq7r0ogph8spgi8ia30l9usj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0CpAAha-7cttCEuzFP848Ku_dtJ8Fquw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385900976442-vb9fs66nvq7r0ogph8spgi8ia30l9usj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
