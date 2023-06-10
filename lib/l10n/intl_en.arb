@@ -2,5 +2,6 @@
     "app_title": "Board Game App!",
     "login": "Login",
     "signup": "Sign up",
-    "explore_games": "Explore Games"
+    "explore_games": "Explore Games",
+    "failed_to_load_games": "Failed to load games"
 }

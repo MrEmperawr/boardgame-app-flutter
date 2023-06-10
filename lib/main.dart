@@ -2,6 +2,7 @@ import 'package:boardgame_app_flutter/common/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
+import 'package:boardgame_app_flutter/pages/games/games_page.dart';
 import 'package:boardgame_app_flutter/pages/home/home_page.dart';
 
 import 'generated/l10n.dart';
@@ -29,7 +30,11 @@ class MyApp extends StatelessWidget {
       theme: lightTheme,
       darkTheme: darkTheme,
       themeMode: ThemeMode.system,
-      home: const HomePage(),
+      initialRoute: '/',
+      routes: {
+        '/': (context) => const HomePage(),
+        '/games': (context) => const GamesPage(),
+      },
     );
   }
 }

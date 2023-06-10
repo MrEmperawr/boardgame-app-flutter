@@ -89,6 +89,16 @@ class S {
       args: [],
     );
   }
+
+  /// `Failed to load games`
+  String get failed_to_load_games {
+    return Intl.message(
+      'Failed to load games',
+      name: 'failed_to_load_games',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
