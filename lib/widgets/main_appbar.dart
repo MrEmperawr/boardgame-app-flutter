@@ -10,7 +10,7 @@ class MainAppBar extends StatelessWidget implements PreferredSizeWidget {
     return AppBar(
       elevation: 2,
       backgroundColor: Colors.teal[700],
-      leading: const Icon(Icons.games),
+      leading: const Icon(Icons.bubble_chart, size: 40),
       title: Text(S.of(context).app_title),
     );
   }
