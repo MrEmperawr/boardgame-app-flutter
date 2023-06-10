@@ -1,3 +1,4 @@
+import 'package:boardgame_app_flutter/common/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
@@ -25,9 +26,9 @@ class MyApp extends StatelessWidget {
         Locale('en'),
       ],
       title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.teal,
-      ),
+      theme: lightTheme,
+      darkTheme: darkTheme,
+      themeMode: ThemeMode.system,
       home: const HomePage(),
     );
   }

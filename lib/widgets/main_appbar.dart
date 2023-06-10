@@ -10,7 +10,7 @@ class MainAppBar extends StatelessWidget {
     return AppBar(
       elevation: 2,
       backgroundColor: Colors.teal[700],
-      leading: Text(S.of(context)),
+      leading: Text(S.of(context).app_title),
     );
   }
 }
