@@ -19,14 +19,14 @@ const MaterialColor tealSwatch = MaterialColor(
 
 final ThemeData lightTheme = ThemeData(
   brightness: Brightness.light,
-  colorScheme: ColorScheme.fromSwatch(primarySwatch: tealSwatch).copyWith(
-    background: Colors.white,
-  ),
+  colorScheme: ColorScheme.fromSwatch(primarySwatch: tealSwatch)
+      .copyWith(background: Colors.white, brightness: Brightness.light),
 );
 
 final ThemeData darkTheme = ThemeData(
   brightness: Brightness.dark,
   colorScheme: ColorScheme.fromSwatch(primarySwatch: tealSwatch).copyWith(
     background: Colors.black,
+    brightness: Brightness.dark,
   ),
 );
