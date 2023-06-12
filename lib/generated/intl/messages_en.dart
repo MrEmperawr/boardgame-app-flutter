@@ -26,6 +26,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "explore_games": MessageLookupByLibrary.simpleMessage("Explore Games"),
         "failed_to_load_games":
             MessageLookupByLibrary.simpleMessage("Failed to load games"),
+        "games": MessageLookupByLibrary.simpleMessage("Games"),
         "login": MessageLookupByLibrary.simpleMessage("Login"),
         "signup": MessageLookupByLibrary.simpleMessage("Sign up")
       };

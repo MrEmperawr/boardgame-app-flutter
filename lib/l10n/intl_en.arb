@@ -3,5 +3,6 @@
     "login": "Login",
     "signup": "Sign up",
     "explore_games": "Explore Games",
-    "failed_to_load_games": "Failed to load games"
+    "failed_to_load_games": "Failed to load games",
+    "games": "Games"
 }

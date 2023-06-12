@@ -27,7 +27,7 @@ class MainDrawer extends StatelessWidget {
             leading: const Icon(Icons.games, color: Colors.white),
             title: const Text('Games', style: TextStyle(color: Colors.white)),
             onTap: () {
-              // Navigator.of(context).pushNamed('/games');
+              Navigator.of(context).pushNamed('/games');
             },
           ),
           ListTile(
